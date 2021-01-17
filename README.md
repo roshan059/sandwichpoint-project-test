@@ -1,3 +1,8 @@
+<p>for installation </p>
+
+<p>download project or git clone https://github.com/roshan059/sandwichpoint-project-test.git</p>
+make sure you import database 
+<p>database location inside project <a href="https://github.com/roshan059/sandwichpoint-project-test/tree/master/common/database">https://github.com/roshan059/sandwichpoint-project-test/tree/master/common/database</a></p>
 
 <p>This web application is made by using Yii2 framework of php (frontend and backend) </p>
 <p> gii library have been used to generate CRUD in backend side </p>
