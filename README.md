@@ -1,3 +1,5 @@
+<p>author:Roshan Shrestha </p>
+<p>it takes me around 6-7 hours to complete this project </p>
 <p>for installation </p>
 
 <p>download project or git clone https://github.com/roshan059/sandwichpoint-project-test.git</p>
