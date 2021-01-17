@@ -99,7 +99,12 @@ class OrderController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        
+
+   
+        if ($model->load(Yii::$app->request->post()) && $model->updateOrderAdmin($id)) {
+            // var_dump(Yii::$app->request->post());
+            // die();
             return $this->redirect(['index']);
         }
 

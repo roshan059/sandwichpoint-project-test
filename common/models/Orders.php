@@ -72,6 +72,28 @@ class Orders extends \yii\db\ActiveRecord
         ];
     }
 
+    public function updateOrderAdmin($id){
+        $order = $this->findOne($id);
+        $order->user_id = $this->user_id;
+        $order->meal_id = $this->meal_id;
+        $order->bread_id = $this->bread_id;
+        $order->bread_size = $this->bread_size;
+        $order->is_baked = $this->is_baked;
+        $order->sandwich_taste_id = $this->sandwich_taste_id;
+        $order->extra =json_encode($this->extra);
+        $order->vegetable_id = $this->vegetable_id;
+        $order->sauce_id = $this->sauce_id;
+        $order->status = $this->status;
+        $order->location = $this->location;
+        $order->status = 'open';
+
+        // var_dump($this->extra);die();
+
+
+
+        return $order->save(false);
+    }
+
     public function takeOrder($id, $token)
     {
      
