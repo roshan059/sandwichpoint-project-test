@@ -1,65 +1,17 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+<p>This web application is made by using Yii2 framework of php (frontend and backend) </p>
+<p> gii library have been used to generate CRUD in backend side </p>
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+<p>for backend login <a href="http://localhost/sandwich-point-yii2/backend/web/index.php?r=site%2Flogin">http://localhost/sandwich-point-yii2/backend/web/index.php?r=site%2Flogin <a></p>
+ username: admin
+ password:admin123
+    
+ <h1>Backend work</h1>
+<a href="https://ibb.co/cC0P5MN"><img src="https://i.ibb.co/GtyXwBV/1-1.png" alt="1-1" border="0"></a>
+<a href="https://ibb.co/WHRzCww"><img src="https://i.ibb.co/mRPypww/1-2.png" alt="1-2" border="0"></a>
+<a href="https://ibb.co/HCH7psP"><img src="https://i.ibb.co/tzJBPt2/1-3.png" alt="1-3" border="0"></a>
+<a href="https://ibb.co/2gbSbft"><img src="https://i.ibb.co/Bq1G1SZ/1-4.png" alt="1-4" border="0"></a>
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
-
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
-
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
-
-DIRECTORY STRUCTURE
--------------------
-
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-```
-
-<p>I have used GII library for crud generation </p>
 
 <h1>frontend work</h1>
 <a href="https://ibb.co/d40xfsZ"><img src="https://i.ibb.co/9H9SpmP/home.png" alt="home" border="0"></a>
@@ -69,8 +21,3 @@ environments/            contains environment-based overrides
 <a href="https://ibb.co/cyhwn7n"><img src="https://i.ibb.co/2F3S4f4/error-while-taking-ordering-same-meal-meal-is-not-closed-yet.png" alt="error-while-taking-ordering-same-meal-meal-is-not-closed-yet" border="0"></a>
 <a href="https://ibb.co/McC5YFX"><img src="https://i.ibb.co/JvsFfDh/popup-for-token-while-viewing-history.png" alt="popup-for-token-while-viewing-history" border="0"></a>
 <a href="https://ibb.co/7jqXd7L"><img src="https://i.ibb.co/Cmfz3xD/customer-order-history.png" alt="customer-order-history" border="0"></a><br>
-<h1>Backend work</h1>
-<a href="https://ibb.co/cC0P5MN"><img src="https://i.ibb.co/GtyXwBV/1-1.png" alt="1-1" border="0"></a>
-<a href="https://ibb.co/WHRzCww"><img src="https://i.ibb.co/mRPypww/1-2.png" alt="1-2" border="0"></a>
-<a href="https://ibb.co/HCH7psP"><img src="https://i.ibb.co/tzJBPt2/1-3.png" alt="1-3" border="0"></a>
-<a href="https://ibb.co/2gbSbft"><img src="https://i.ibb.co/Bq1G1SZ/1-4.png" alt="1-4" border="0"></a>
