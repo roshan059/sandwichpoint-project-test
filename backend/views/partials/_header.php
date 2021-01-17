@@ -18,7 +18,7 @@ use yii\helpers\Html;
     </a>
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav">
-      
+
 
         <!-- User Account: style can be found in dropdown.less -->
         <li class="dropdown user user-menu">
@@ -40,7 +40,13 @@ use yii\helpers\Html;
             <li class="user-footer">
 
               <div class="pull-right">
-                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+
+              <?php
+               Html::beginForm(['/site/logout'], 'post').Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link logout']
+                ). Html::endForm()
+              ?>
               </div>
             </li>
           </ul>
